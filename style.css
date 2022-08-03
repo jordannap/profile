@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  background-color: #ffebf0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #778da9;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+h1, h2 {
+  color: #415a77;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #fb6f92;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.btn-pink{
+  background-color: #fb6f92;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+}
+.btn-pink:hover {
+  background-color: #ffb3c6;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li{
+  font-size: 30px;
+}
+
+#sn {
+  color: #b388eb;
+  font-weight: bold;
+}
+
+#sn:hover{
+  background-color:white;
+}
+
+li a:hover{
+  color: #ffb3c6;
+}
+
+#follow {
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
