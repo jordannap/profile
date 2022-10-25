@@ -4,16 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
     <link rel="stylesheet" href="style.css">
-    <title>My Profile</title>
+
+
+    <title>Jordanna / Web Developer</title>
   </head>
 
   <body>
-    <div class="container text-center">
+    <!-- <div class="container text-center">
       <div class="card">
         <h1>Hello, my name is Jordanna ☺️</h1>
-        <h2>I am a Web developer.</h2>
-        <img class="img-circle" src="images/img_58.jpg" alt="Photo of Jordanna" width="100" target="_blank">
+        <h2>I am a Web Developer.</h2>
+        <img class="img-circle" src="images/profile.jpg" alt="Photo of Jordanna" width="100" target="_blank">
         <p>In addition to web development, I love sports, especially dance 💃🏻, I also like to travel abroad.</p>
         <a href="https://www.lewagon.com/" target="_blank" class="btn-pink">Discover le Wagon</a>
       </div>
@@ -26,6 +31,312 @@
           <li><a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
+
+
+  <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+
+
+    <section id="hero" class="jumbotron">
+
+        <div class="container">
+
+          <div class="menu text-end">
+            <a href="#about" class="btn btn-primary1">ABOUT ME </a>
+            <a href="#projects" class="btn btn-primary1">PROJECTS</a>
+            <a href="#contact" class="btn btn-primary1">CONTACT </a>
+            <a href="/francais" class="btn btn-primary1">FRANCAIS </a>
+          </div>
+
+        <div class="container2 row">
+          <div class="part1 col-12 col-lg-8">
+            <h1 class="hero-title">
+              Hi, my name is <span class="text-color-main">Jordanna.</span>
+              <br />
+              I'm a Web Developer.
+            </h1>
+          <br>
+          <p class="hero-cta ">
+            <a rel="noreferrer" class="cta-btn cta-btn--hero btn btn-primary" href="#about">Know more</a>
+         </p>
+
+            </div>
+          <div class="part2 col-12 col-lg-4">
+            <img src="images/pic.gif" alt="Profile Image" width="380px" class="img-fluid1 ">
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">ABOUT ME</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image load-hidden col-12 col-lg-6">
+              <img src="images/profile.jpg" alt="Profile Image" height="auto", width="560px" class:="img-fluid rounded shadow-lg">
+
+          </div>
+          <div class="about-wrapper__info load-hidden col-12 col-lg-6">
+              <p class="about-wrapper__info-text">
+                I grew up in the City of Light, Paris, where I pursued a career as a lawyer.
+
+                <br>
+                In the past years, the urge to switch contexts and dive further into the tech world grew stronger.
+                <br>
+                In 2022, I graduated from the world's leading full-stack coding bootcamp, Le Wagon. Following further studies and projects, I decided to concentrate my skills into both front-end & back-end development, creating functional components and websites with flair and precision.
+                <br>
+                My ambition is to continue to develop my skills in web development while working in a new exciting environment where I am challenged daily.
+                <br>
+                Before becoming a Programer, I worked at SAMSUNG ELECTRONICS FRANCE as Product Liabiliy Manager.
+              </p>
+              <p class="about-wrapper__info-text">
+                When I’m not coding, you’ll find me dancing Street Jazz and Hip Hop in Dance Studios, making Escape Games with friends & family and going to concerts.
+
+              </p>
+              <span class=" mt-3">
+                <a href="https://drive.google.com/file/d/1HohCOa6aOXBsDC_G0RsrsVfPzbWbDXqM/view?usp=sharing" class="btn btn-primary" target="_blank" >View Resume</a>
+
+
+              </span>
+
+
+          </div>
+        </div>
+
+        <div class="fleche">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">PROJECTS</h2>
+
+         <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">One Night Star</h3>
+                <div>
+                  <p>
+                    Event marketplace to find events with celebrities (based on the model of Airbnb)
+                  </p>
+                  <p class="list-job">
+                    I mainly worked on:
+                    <ul>
+                      <li>the calendar to make reservation</li>
+                      <li>internal search bar to find services</li>
+                      <li>front-end: CSS of most of pages, responsive app</li>
+                      <li>login page</li>
+                      <li>back-end: homepage, index page, show page, dashboard, footer, navbar</li>
+                    </ul>
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero btn btn-primary"
+                  href="https://one-night-star.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://one-night-star.herokuapp.com/"
+                >
+                   <!--Source Code -->
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://one-night-star.herokuapp.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img src="images/onenight.jpg" alt= "Project Image" class= "img-fluid class="rounded shadow-lg">
+
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Beennie</h3>
+                <div>
+                  <p>
+                    A mobile application that connects people who want to buy plants and get advice from other app users
+                  </p>
+                  <p class="list-job">
+                    I mainly worked on:
+                    <ul>
+                      <li>internal chatroom for app users</li>
+                      <li>internal searchbar to find plants</li>
+                      <li>add plants to wishlist in dashboard</li>
+                      <li>front-end: CSS on all pages, responsive app</li>
+                      <li>login page</li>
+                      <li>back-end: homepage, index page, show page, navbar</li>
+                    </ul>
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero btn btn-primary"
+                  href="http://www.beennie.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="http://www.beennie.com/"
+                >
+                  <!--Source Code -->
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image3 load-hidden">
+                <a rel="noreferrer" href="http://www.beennie.com/" target="_blank"><div class="thumbnail rounded js-tilt"><img src="images/beenie.jpg" alt="Project Image" class="img-fluid rounded shadow-lg b1"><img src="images/beenie1.jpg" alt="Project Image" class="img-fluid rounded shadow-lg b2"><img src="images/beenie2.jpg" alt="Project Image" class="img-fluid rounded shadow-lg b3" >
+                  </div></a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Shroom'Kart</h3>
+                <div>
+                  <p class="mb-4">
+                    An app to rent karts (based on the model of Airbnb)
+                    </p>
+                    <p class="list-job">
+                    I mainly worked on:
+                      <ul>
+                      <li>internal search bar to find cars</li>
+                      <li>front-end: CSS, responsive app</li>
+                      <li>back-end: homepage, index page, show page, navbar, footer</li>
+                      </ul>
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero btn btn-primary"
+                  href="https://shroomkart-ludomino.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://shroomkart-ludomino.herokuapp.com/"
+                >
+                   <!--Source Code -->
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://shroomkart-ludomino.herokuapp.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+
+                    <img src="images/shroom.jpg" alt="Project Image" class="img-fluid rounded shadow-lg" %>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+      <div class="fleche2">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        </div>
+    </section>
+
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Have a question, an idea, want to work together?</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume btn btn-primary"
+            href="mailto:j.pensieri@gmail.com"
+            >Contact me</a
+          >
+        </div>
+      </div>
+
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+      <footer class="footer navbar-static-bottom">
+        <div class="container">
+          <div class="social-links">
+            <a href="mailto:j.pensieri@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="http://www.linkedin.com/in/jordanna-pensieri" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/jordannap" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+          </div>
+        </div>
+      </footer>
+    </section>
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it
+        <p class="footer__text">
+          © 2022 -
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jordanna</a
+          >
+        </p>
+      -->
+
+
   </body>
 </html>
