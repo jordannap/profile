@@ -97,7 +97,7 @@
   }
 
 
-  #contact a:hover {
+  .contact-wrapper a:hover {
     color: #ffffff;
     background-color: #916dae;
     border: solid #916dae;
@@ -279,6 +279,10 @@ legend ~ div.form-check:first-of-type {
 }
 
 .social-links a:hover {
+  color: transparent;
+}
+
+.fa-solid:hover, .fa-brands:hover {
   color: #916dae;
 }
 
