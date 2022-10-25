@@ -59,8 +59,8 @@
   border: solid #916dae;
   font-weight: 600;
   box-shadow: 120, 98, 123;
-  border-radius: none;
-
+  border-radius: 2px !important;
+  border-width: 2px ;
   }
 
   .hero-cta a:hover {
@@ -72,6 +72,9 @@
     border-radius: none;
     box-shadow: 120, 98, 123;
   }
+
+
+
 
   .about-wrapper a:hover {
     color: #ffffff;
@@ -94,8 +97,6 @@
   }
 
 
-
-
   #contact a:hover {
     color: #ffffff;
     background-color: #916dae;
@@ -105,7 +106,6 @@
     border-radius: none;
     box-shadow: 120, 98, 123;
   }
-
 
   /* --bs-btn-color: #916dae;
   --bs-btn-bg: rgba(154, 109, 236, 0);
@@ -136,6 +136,7 @@ font-weight: 600;
   background-color: #916dae;
   border: 2 solid #fff;
   font-weight: 600;
+  border-radius: 2px !important;
 }
 
 /*
@@ -302,7 +303,6 @@ text-align: center;
   margin: -120px 50px 0 50px;
 }
 
-
 #hero .text-color-main {
   color: #916dae;
 }
@@ -321,16 +321,13 @@ width: 60%;
 margin-right: 20px;
 }
 
-  #hero .part2 {
-    padding-top: 75px;
-  }
+#hero .part2 {
+  padding-top: 75px;
+}
 
-  #hero a {
-      margin-top: 10px;
-      margin-left: 8px;
-      font-size: larger;
-    }
-
+#hero .menu a {
+  font-size: larger;
+}
 
 
   #hero .img-fluid1 {
