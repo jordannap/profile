@@ -399,12 +399,12 @@ padding-bottom: 130px;
 
 
 .project-wrapper__image3 .b1 {
-  margin-right: 7%;
+  margin-right: 5%;
   margin-bottom: 16px;
   width: 208px;
 }
 .project-wrapper__image3 .b2 {
-  margin-right: 7%;
+  margin-right: 5%;
   margin-bottom: 16px;
   width: 208px;
 }
@@ -465,4 +465,10 @@ a:hover img {
   100% {
     opacity: 1;
   }
+}
+
+
+#projects .btn-primary {
+  margin-right: 16px;
+  margin-bottom: 8px;
 }
